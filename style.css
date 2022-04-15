@@ -13,90 +13,117 @@ body {
 	margin: 0px 20px;
 	min-height: 100vh;
 	background-image: url(/images/bg-mobile.png);
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 h1 {
-    font-weight: 400;
-    color: var(--pale-blue);
-    font-size: 14px;
+	font-weight: 400;
+	color: var(--pale-blue);
+	font-size: 14px;
 }
- 
+
 p {
-    color: white;
-    font-size: 14px;
-    color: var(--pale-blue);
+	color: white;
+	font-size: 14px;
+	color: var(--pale-blue);
 }
 
 span {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 /*top div styling*/
 
 .navigation-icons {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
-.document-icon, .folder-icon, .upload-icon {
-    background-color: var(--very-dark-blue);
+.document-icon,
+.folder-icon,
+.upload-icon {
+	background-color: var(--very-dark-blue);
 }
 
 .document-icon {
-    padding: 12px 13px;
-    border-radius: 10px;
+	padding: 12px 13px;
+	border-radius: 10px;
 }
 
 .folder-icon {
-    padding: 14px 12px;
-    border-radius: 10px;
-    margin: 0px 10px 0px 10px;
+	padding: 14px 12px;
+	border-radius: 10px;
+	margin: 0px 10px 0px 10px;
 }
 
 .upload-icon {
-    padding: 16px 12px;
-    border-radius: 10px;
+	padding: 16px 12px;
+	border-radius: 10px;
 }
 
-.logo-and-icons, .storage-bar {
-    background-color: var(--dark-blue);
+.logo-and-icons,
+.storage-bar {
+	background-color: var(--dark-blue);
 }
 
 .logo-and-icons {
-    margin-bottom: 20px;
-    padding: 40px;
-    border-radius: 10px 90px 10px 10px;
+	margin-bottom: 20px;
+	padding: 40px;
+	border-radius: 10px 90px 10px 10px;
 }
 
 /*bottom div styling*/
 
 .storage-bar {
-    padding: 30px;
- border-radius: 10px;
+	padding: 30px;
+	border-radius: 10px;
 }
 
 .storage-used {
-    text-align: center;
+	text-align: center;
 }
 
 .pink-progress-bar {
-    display: block;
-    margin: 0 auto;
-    background-color: var(--very-dark-blue);
-    width: 260px;
-    height: 15px;
-    border-radius: 10px;
-    margin-top: 15px;
+	display: block;
+	margin: 0 auto;
+	background-color: var(--very-dark-blue);
+	width: 260px;
+	height: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
 }
 
+/* 185 gb asset*/
+
+.storage-left {
+	background-color: white;
+	color: black;
+	font-size: 40px;
+	font-weight: 700;
+	border-radius: 10px;
+	padding: 13px 20px;
+	width: 135px;
+	text-align: center;
+	position: absolute;
+	top: 460px;
+	left: 107px;
+}
+
+.gb-left {
+	font-weight: 700;
+	font-size: 13px;
+	color: var(--grayish-blue);
+	position: relative;
+	top: -7px;
+}
 
 /* footer */
 .attribution {
 	font-size: 11px;
 	text-align: center;
 	color: white;
-    position: relative;
-    top: 50px;
+	position: relative;
+	top: 50px;
 }
 .attribution a {
 	color: var(--pale-blue);
