@@ -51,12 +51,16 @@ p, h1 {
 
 .logo-and-icons, .storage-bar {
     background-color: var(--dark-blue);
-    padding: 30px;
 }
 
 .logo-and-icons {
     margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 10px 90px 10px 10px;
+}
 
+.storage-bar {
+    padding: 30px;
 }
 
 .attribution {
