@@ -25,6 +25,30 @@ p, h1 {
     font-size: 15px;
 }
 
+.navigation-icons {
+    margin-top: 30px;
+}
+
+.document-icon, .folder-icon, .upload-icon {
+    background-color: var(--very-dark-blue);
+}
+
+.document-icon {
+    padding: 12px 13px;
+    border-radius: 10px;
+}
+
+.folder-icon {
+    padding: 14px 12px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.upload-icon {
+    padding: 16px 12px;
+    border-radius: 10px;
+}
+
 .logo-and-icons, .storage-bar {
     background-color: var(--dark-blue);
     padding: 30px;
