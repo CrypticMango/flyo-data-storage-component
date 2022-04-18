@@ -176,7 +176,7 @@ span {
 	color: var(--pale-blue);
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 350px) {
 	.storage-left {
 		position: absolute;
 		top: 74%;
@@ -194,7 +194,7 @@ span {
 	}
 }
 
-@media (min-width: 390px) {
+@media (min-width: 390px) and (max-width: 400px) {
 
 	.storage-left {
 		position: absolute;
