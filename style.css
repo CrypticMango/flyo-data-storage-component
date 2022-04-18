@@ -169,3 +169,11 @@ span {
 .attribution a {
 	color: var(--pale-blue);
 }
+
+@media (min-width: 390px) {
+
+	.storage-left {
+		position: absolute;
+		top: 63%;
+	}
+}
