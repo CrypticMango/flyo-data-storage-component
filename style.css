@@ -68,9 +68,12 @@ span {
 }
 
 .logo-and-icons {
+	display: block;
+	margin: 0 auto;
 	margin-bottom: 20px;
 	padding: 40px;
 	border-radius: 10px 90px 10px 10px;
+	width: 76%;
 }
 
 /*bottom div styling*/
@@ -78,6 +81,9 @@ span {
 .storage-bar {
 	padding: 30px;
 	border-radius: 10px;
+	width: 81.5%;
+	display: block;
+	margin: 0 auto;
 }
 
 .storage-used {
@@ -170,10 +176,29 @@ span {
 	color: var(--pale-blue);
 }
 
+@media (min-width: 320px) {
+	.storage-left {
+		position: absolute;
+		top: 74%;
+		left: 25%;
+	}
+
+	.pink-progress-bar {
+		position: relative;
+		right: 15px;
+	}
+
+	.storage-min {
+		position: relative;
+		left: -12px;
+	}
+}
+
 @media (min-width: 390px) {
 
 	.storage-left {
 		position: absolute;
 		top: 63%;
+		left: 30%;
 	}
 }
