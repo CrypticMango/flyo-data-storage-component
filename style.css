@@ -176,7 +176,7 @@ span {
 	color: var(--pale-blue);
 }
 
-@media (min-width: 320px) and (max-width: 350px) {
+@media (min-width: 320px) and (max-width: 340px) {
 	.storage-left {
 		position: absolute;
 		top: 74%;
@@ -191,6 +191,20 @@ span {
 	.storage-min {
 		position: relative;
 		left: -12px;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 370px) {
+
+	.storage-min {
+		position: relative;
+		left: 2px;
+	}
+
+	.storage-left {
+		position: absolute;
+		top: 65%;
+		left: 100px;
 	}
 }
 
