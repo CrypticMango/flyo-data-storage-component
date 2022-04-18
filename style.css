@@ -203,6 +203,19 @@ span {
 	}
 }
 
+@media (min-width: 411px) and (max-width: 420px) {
+	.storage-min {
+		position: relative;
+		left: 25px;
+	}
+
+	.storage-left {
+		position: absolute;
+		top: 63%;
+		left: 120px;
+	}
+}
+
 @media (min-width: 428px) and (max-width: 500px) {
 	.storage-min {
 		position: relative;
