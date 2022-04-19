@@ -266,6 +266,8 @@ span {
 		left: 130px;
 	}
 
+	/*storage bar div styling*/
+
 	.storage-bar {
 		width: 480px;
 		height: 90px;
@@ -292,5 +294,26 @@ span {
 	.storage-max {
 		position: relative;
 		left: 362px;
+	}
+
+	/* styling for the GB left div*/
+
+	.storage-left {
+		position: absolute;
+		top: -90px;
+		left: 315px;
+		border-radius: 10px 10px 0px 10px;
+	}
+
+	.triangle {
+		border-left: 20px solid transparent;
+    	border-right: 20px solid transparent;
+    	border-bottom: 20px solid white;
+    	border-top: 20px solid transparent;
+    	display: inline-block;
+		transform: rotate(45deg);
+		position: absolute;
+		left: 470px;
+		top: -3px;
 	}
 }
